@@ -1,0 +1,22 @@
+@media screen and (min-width:1500px) {
+    
+    .container {
+        display: flex;
+        
+    }
+
+    .section1{
+        background-color: rgb(127, 255, 127);
+        color: red;
+        
+    }
+
+}
+
+@media screen (min-width: 1000px) {
+    .section2 {
+        background-color: cadetblue;
+        color:bisque;
+    }
+    
+}

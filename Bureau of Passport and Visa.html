@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html LANG="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="layout.css">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <title>layout</title>
+
+        <style>
+         .animation{
+            background-color: orange;
+            height: 135px;
+            width:  135px;
+            border-radius:50%;
+            border: 25px solid white;
+            border-top: 20px solid indigo;
+            animation: ani 2.5s linear infinite;
+         }
+
+         @keyframes ani{
+            to{
+                transform:rotate(360deg);
+            }
+         }
+
+
+
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            
+           <h1 style="text-align: center;" class="mainheader"> <a href="#">LIBERIA PASSPORT ONLINE APPLICATION  </a> </h1>
+           
+            <nav class="navbar">
+
+                <i class="fas fa-home"></i>    <!-- Home icon -->
+
+                
+               <ul>
+                
+               <li> <a href="layout.html">HOME</a> </li> 
+               <li> <a href="Contact Us.html">CONTACT US</a>  </li>
+               <li> <a href="About US.html">ABOUT</a>  </li>
+               <li> <a href="#EMERGENCY"> EMERGENCY</a> </li>
+               <li> <a href="#OUR OFFICES"> OUR OFFICES</a> </li>
+               <li> <a href="#PASSPORT TYPES"> PASSPORT TYPES</a> </li>
+               <li> <a href="#MEET OUR STAFF"> MEET OUR STAFF</a> </li>
+               <li> <a href="#OUR OFFICES"> RENEWAL</a> </li>
+
+              </ul>
+        
+            </nav>
+            
+            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 12l10 5 10-5-10-5-10 5zm0 4l10 5 10-5v4H2v-4z"/>
+            </svg>
+            <header>
+                <h1 class="paragraph"> <marquee>Welcome to the Republic of Liberia Online Passport Service</marquee></h1>
+
+                 <!-- Photo that will trigger the modal -->
+                 <img src="foreign affairs building.jpg" alt="User Photo" id="photo" style="width: 700px; cursor: pointer;">
+                 <i class="fas fa-camera"></i> <!-- Camera icon -->
+
+                    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>More About Ministry of Foreign Affairs</h2>
+            <p>This is detailed information about the types of passport. You can apply for the type that fit your category. The types or categories of passports are: Ordinary Passport, Service Passport, Official Passports and Diplomatic Passports.</p>
+        </div>
+    </div>
+
+<br>
+<br>
+<br>    
+<br>
+
+                    <h2 class="para">The Liberia Passport Office under the Ministry of Foreign Affairs is authorized to issue Liberian Passports. The Ministry of Foreign Affairs 
+                    by this mandate is providing applicants with this online passport application service</h2>
+                <img class="image" src="mofa seal.jpeg" alt="Seal of Ministry of Foreign Affairs" width="200px" height="150px"> <br> <br> <br> <br> <br>
+                <h3 class="para1">Passport Renewal Service now available to applicants residing in territories that the Government of Liberia has no passport processing center. Applicants 
+                    must be 18 years and above at the time of his/her last in-person application. You can access the Passport Renewal Service here</h3>
+                    
+            </header>
+
+            <section class="section1">
+                <h1> <a href="#" class="application"> APPLICATION TYPE </a></h1>
+                <div class="content">
+
+                    <div class="card">
+                        <div class="box">
+                          <a href="ordinary passport.png">  <img class="ordinarypassport" src="ordinary passport.png" alt="This is ordinary passport picture"> </a>
+                           <a href="#" class="ordinary"> ORDINARY PASSPORT APPLICATION</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="box">
+                           <a href="service passport.jpeg"> <img class="servicepassport" src="service passport.jpeg" alt=""></a>
+                            <a href="#" class="service"> SERVICE PASSPORT APPLICATION</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="box">
+                           <a href="Official Passport.jpg"> <img class="officialpassport" src="Official Passport.jpg" alt=""> </a>
+                            <a href="#" class="official"> OFFICIAL PASSPORT APPLICATION</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="box">
+                        <a href="diplomatic.jpg">    <img class="diplomaticpassport" src="diplomatic.jpg" alt=""> </a>
+                            <a href="#" class="diplomatic"> DIPLOMATIC PASSPORT APPLICATION</a>
+                        
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            
+            <section class="section2">
+                <h1>  Oversea Application and Inquery</h1>
+                <div class="content">
+                    <div class="left">
+                        <div class="card">
+                            
+                            <div class="animation">
+                            
+
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                    <div class="right">
+                        <div class="card">
+                           <a href="#" class="sarai"> Applicant Residing in:  <br>   North America</a>
+                        </div>
+                        <div class="card" >
+                            <a href="#" class="gray"> Applicant Residing in: <br> South America</a>
+                        </div>
+                        <div class="card" >
+                         <a href="#" class="daniel">   Applicant Residing in: <br> Europe and Asia</a>
+                        </div>
+                       
+
+                        
+
+                        
+
+                    </div>
+                    
+                </div>
+
+            </section>
+
+            <footer>
+                <p>&copy; 2024 Bureau of Passports and Visas. All rights reserved.</p>
+                <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </footer>
+            
+            <div class="clear">
+
+            </div>
+        </div>
+        
+        <script src="fun.js"></script>
+    </body>
+</html>

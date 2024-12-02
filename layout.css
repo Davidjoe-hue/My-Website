@@ -1,0 +1,400 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #dddddd;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    background-color: #ffffff;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+
+}
+h1{
+    font-size: 30px;
+    margin: 0;
+}
+.clear{
+    clear:both;
+}
+.navbar ul{
+    float: left;
+    width: 100%;
+    background-color:cadetblue; 
+    text-align: center;
+    padding: 30px 15px;
+    margin-bottom: 20px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 5px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar li{
+    float:left;
+}
+
+.navbar a:hover{
+    background-color: #cc4425;
+    
+}
+
+.mainheader a{
+    color: #cc4425;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.paul{
+    color:#cc4425;
+    text-decoration: none;
+}
+
+.pearson{
+    color: #cc4425;
+    text-decoration: none;
+}
+
+.daniel{
+    color:#cc4425;
+    text-decoration: none;
+}
+
+.gray{
+    color:#cc4425;
+    text-decoration: none;
+}
+
+.sarai{
+    color:#cc4425;
+    text-decoration: none;
+    
+}
+
+.application{
+    text-decoration: none;
+    color: #cc4425;
+}
+
+.ordinary{
+    text-decoration: none;
+    color: #cc4425;
+}
+
+.service{
+    text-decoration: none;
+    color: #cc4425;
+}
+
+.official{
+    text-decoration: none;
+    color: #cc4425;
+}
+
+.diplomatic{
+    text-decoration: none;
+    color: #cc4425;
+}
+
+
+
+
+
+
+.ordinarypassport{
+    width: 220px;
+}
+
+.servicepassport{
+    width: 220px;
+}
+
+.officialpassport{
+    width: 220px;
+}
+
+.diplomaticpassport{
+    width: 220px;
+}
+
+.mofabuilding{
+    width:500px;
+    height: 400px;
+}
+
+header{
+    float: left;
+    width: 100%;
+    background-color: #dddddd;
+    text-align: center;
+    padding: 130px 15px;
+    margin-bottom: 20px;
+}
+
+.section1{
+    float: left;
+    width: 100%;
+    background-color: #dddddd;
+    text-align: center;
+    padding: 50px 10px;
+    margin-bottom: 20px;
+    
+}
+
+.section1 .content {
+    float: left;
+    width: 100%; 
+    
+}
+
+.section1 .content .card{
+    width: 25%;
+    float: left;
+    padding: 0px, 10px;
+    
+}
+
+.section1 .content .card .box{
+    background-color: white;
+    font-size: 30px;
+    color:#cc4425;
+    padding:60px 15px;
+    margin: 10px;
+}
+
+.section2{
+    float: left;
+    width: 100%;
+    background-color: #dddddd;
+    text-align: center;
+    padding: 50px 10px;
+    margin-bottom: 20px;
+}
+
+.section2 .content{
+    float: left;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom:20 ;
+    
+}
+
+.section2 .content .left{
+    width: 50%;
+    float: left;
+    padding: 0px 10px;
+}
+
+.section2 .content .left .card{
+    padding: 200px 15px;
+    font-size: 30px;
+    color:white;
+    background-color: cadetblue;
+}
+
+.section2 .content .right {
+    width: 540px;
+    float: left;
+    padding: 0px 10px;
+}
+
+.section2 .content .right .card{
+    padding: 48px 15px;
+    font-size: 30px;
+    color:#cc4425;
+    background-color: white;
+    margin-bottom:20px;
+    
+}
+
+footer{
+    float: left;
+    width: 100%;
+    background-color: #dddddd;
+    text-align: center;
+    padding: 50px 10px;
+    margin-bottom: 20px;
+    
+}
+
+h1{
+    color:#cc4425;
+}
+
+.image{
+    width: 200px; 
+            height: 200px;
+            object-fit: cover;
+            border-radius: 20%;
+}
+
+.paragraph{
+    color:#cc4425;
+            font-family: "Oswald", sans-serif;
+            font-size: 6rem
+            line-height: 1.15;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 5em;
+            text-transform: uppercase;
+}
+
+.para{
+    color:#cc4425;
+            font-family: "Oswald", sans-serif;
+            font-size: 8rem
+            line-height: 1.15;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 5em;
+            text-transform: uppercase;
+}
+
+.para1{
+    color:#cc4425;
+            font-family: "Oswald", sans-serif;
+            font-size: 8rem
+            line-height: 1.15;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 5em;
+            text-transform: uppercase;
+}
+
+.aboutuspage{
+    color:#cc4425;
+            font-family: "Oswald", sans-serif;
+            font-size: 8rem
+            line-height: 1.15;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 5em;
+            text-transform: uppercase;
+            max-width: 1140px;
+            background-color: #ffffff;
+            height: auto;
+            margin: 20px auto;
+            padding: 20px;
+}
+
+.foraboutus{
+    color:black;
+}
+
+
+
+.contactus{
+    color:#cc4425;
+    font-family: "Oswald", sans-serif;
+    font-size: 8rem
+    line-height: 1.15;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 5em;
+    text-transform: uppercase;
+    max-width: 1140px;
+    background-color: #ffffff;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.add{
+    color:lightseagreen;
+}
+
+.conus{
+    color:lightseagreen;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    body {
+        background-color: white;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}
+
+
+/* Portrait mode */
+@media (orientation: portrait) {
+    body {
+        background-color: lightyellow;
+    }
+}
+
+/* Landscape mode */
+@media (orientation: landscape) {
+    body {
+        background-color: cadetblue;
+    }
+}
+
+
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+}
+
+/* For small mobile screens */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

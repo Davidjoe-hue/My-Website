@@ -1,0 +1,63 @@
+<idoctype html>
+
+    <html>
+        <head> 
+            <title>About Us</title>
+            <link rel="stylesheet" href="layout.css">
+            <link rel="stylesheet" href="contactstyles.css">
+        </head>
+    
+        <body>
+            <div class="contactus">
+       
+    
+            <h1 class="conus">Contact Info</h1>
+
+            <p>
+                email: <a href="mailto: passports@mofa.gov.lr">passports@mofa.gov.lr</a> <br>
+                Cell Number:  Contact Numbers: +231 555 711 453, +231 779 206 365 <br>
+                WhatsApp:  +231 779 206 365
+
+                <!-- Contact Form -->
+                
+                <form id="contactForm">
+                    <h2>Contact Us</h2>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="message">Your Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                    <button type="button" id="submitBtn">Submit</button>
+                </form>
+
+                <!-- Modal for confirmation -->
+                <div id="confirmationModal" class="modal">
+                <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Are you sure you want to submit this form?</h3>
+                <button id="confirmSubmit">Yes, Submit</button>
+                <button id="cancelSubmit">Cancel</button>
+        </div>
+    </div>
+
+
+
+            </p>
+
+
+
+            </p>
+    
+                <a href="layout.html">BACK TO HOME PAGE</a>
+    
+    </div>
+    
+    
+    <script src="contactfunction.js"></script>
+        </body>
+    
+    </html>

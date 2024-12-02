@@ -1,0 +1,34 @@
+<idoctype html>
+
+<html>
+    <head> 
+        <title>About Us</title>
+    </head>
+
+    <body>
+        
+        <h2>About US</h2>
+
+        <p>Welcome to the Republic of Liberia Online Passport Service
+
+            The Liberia Passport Office under the Ministry of Foreign Affairs is authorized to issue Liberian Passports. 
+            The Ministry of Foreign Affairs by this mandate is providing applicants with this online passport application service
+            New servicePassport Renewal Service now available to applicants residing in territories that the Government of Liberia has no passport processing center. Applicants must
+             be 18 years and above at the time of his/her last in-person application. You can access the Passport Renewal Service here</p>
+
+            <a href="layout.html">Home</a>
+
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+</html>
